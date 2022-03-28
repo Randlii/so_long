@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: lgracefo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/16 00:02:00 by einterdi          #+#    #+#             */
-/*   Updated: 2021/10/17 12:35:33 by einterdi         ###   ########.fr       */
+/*   Created: 2022/03/28 18:16:57 by lgracefo          #+#    #+#             */
+/*   Updated: 2022/03/28 18:27:41 by lgracefo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 t_list	*ft_lstnew(void *content)

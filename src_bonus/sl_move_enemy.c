@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   sl_move_enemy.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lgracefo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/28 14:12:20 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/28 17:07:44 by einterdi         ###   ########.fr       */
+/*   Created: 2022/03/28 17:37:22 by lgracefo          #+#    #+#             */
+/*   Updated: 2022/03/28 17:37:27 by lgracefo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "so_long.h"
 
 void	enemy_move_up(t_map *map)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sl_parser_error.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lgracefo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/24 21:06:17 by einterdi          #+#    #+#             */
-/*   Updated: 2022/01/28 20:31:14 by einterdi         ###   ########.fr       */
+/*   Created: 2022/03/28 17:41:03 by lgracefo          #+#    #+#             */
+/*   Updated: 2022/03/28 17:41:05 by lgracefo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	error_arg(char *str)
 	ft_putstr_fd("\033[31mError: \e[0m", 2);
 	ft_putstr_fd(str, 2);
 	ft_putstr_fd("\n", 2);
-	ft_putstr_fd("Example: ./so_long maps/1.ber\n", 2);
+	ft_putstr_fd("Example: ./so_long map/map1.ber\n", 2);
 	exit(EXIT_SUCCESS);
 }
 

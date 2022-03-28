@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   so_long_bonus.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: einterdi <einterdi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lgracefo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/17 20:23:01 by einterdi          #+#    #+#             */
-/*   Updated: 2022/02/01 00:13:03 by einterdi         ###   ########.fr       */
+/*   Created: 2022/03/28 17:32:14 by lgracefo          #+#    #+#             */
+/*   Updated: 2022/03/28 17:32:30 by lgracefo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "so_long.h"
 
-	// mlx_key_hook(map->win, keys, map);
 void	game(t_map *map)
 {
 	mlx_hook(map->win, 2, 0, keys, map);
